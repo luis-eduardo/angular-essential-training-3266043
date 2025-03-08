@@ -16,10 +16,10 @@ export class PlayersComponent implements OnInit {
   ) { }
 
   public ngOnInit(): void {
-    this.players$ = this.api.getAllPlayers$();
+    this.players$ = this.api.getAllPlayers$()
   }
 
   public update(text: string) {
-    this.players$ = this.api.getPlayersByName$(text);
+    this.players$ = this.api.getPlayersByName$(text)
   }
 }

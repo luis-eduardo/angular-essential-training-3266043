@@ -16,8 +16,6 @@ import { AppComponent } from './app.component';
     CommonModule,
     HttpClientModule
   ],
-  exports: [],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
